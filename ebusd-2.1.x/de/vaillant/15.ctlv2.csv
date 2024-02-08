@@ -57,43 +57,43 @@ r,,xUnknown47,,,,,4700,,,HEX:*,,,
 r,,xUnknown48,,,,,4800,,,HEX:*,,,0100 before SWW run/0300 during SWW run
 r,,xUnknown4A,,,,,4A00,,,HEX:*,,,
 r,,SystemFlowTemp,Warmwassertemperatur,,,,4B00,,,tempv,,,Aktuelle Temperatur im Warmwasserspeicher
-r;w,,MultiRelaySetting,multifunction relay setting,,,,4D00,,,mamode,,,
-r;w,,PrFuelSumHcThisMonth,this months fuel consumption heating,,,,4E00,,,energy4,,,current month fuel consumption heating
-r;w,,PrEnergySumHcThisMonth,this months energy consumption heating,,,,4F00,,,energy4,,,current month electricity consumption heating
-r;w,,PrEnergySumHwcThisMonth,this months energy consumption hot water,,,,5000,,,energy4,,,current month electricity consumption hot water
-r;w,,PrFuelSumHwcThisMonth,this months fuel consumption hot water,,,,5100,,,energy4,,,Current Month fuel consumption hot water
-r;w,,PrFuelSumHcLastMonth,last months fuel consumption heating,,,,5200,,,energy4,,,last month fuel consumption heating
-r;w,,PrEnergySumHcLastMonth,last months energy consumption heating,,,,5300,,,energy4,,,last month electricity consumption heating
-r;w,,PrEnergySumHwcLastMonth,last months energy consumption hot water,,,,5400,,,energy4,,,last month electricity consumption hot water
-r;w,,PrFuelSumHwcLastMonth,last months fuel consumption hot water,,,,5500,,,energy4,,,last month fuel consumption hot water
-r;w,,PrFuelSumHc,total fuel consumption heating,,,,5600,,,energy4,,,total year fuel consumption heating
-r;w,,PrEnergySumHc,total energy consumption heating,,,,5700,,,energy4,,,total year electricity consumption heating
-r;w,,PrEnergySumHwc,total energy consumption hot water,,,,5800,,,energy4,,,total year electricity consumption hot water
-r;w,,PrFuelSumHwc,total fuel consumption hot water,,,,5900,,,energy4,,,total year fuel consumption hot water
-r;w,,PrEnergySum,total energy consumption,,,,5C00,,,energy4,,,total year electricity consumption
-r;w,,PrFuelSum,total fuel consumption,,,,5D00,,,energy4,,,total year fuel consumption
+r;w,,MultiRelaySetting,Multifunktions Relai einstellung ,,,,4D00,,,mamode,,,
+r;w,,PrFuelSumHcThisMonth,Kraftstoffverbrauch dieser Monat,,,,4E00,,,energy4,,,Kraftstoffverbrauch dieser Monat
+r;w,,PrEnergySumHcThisMonth,Stromvebrauch Heizung dieser Monat,,,,4F00,,,energy4,,,Stromvebruach Heizung dieser Monat
+r;w,,PrEnergySumHwcThisMonth,Stromvebrauch Warmwasser dieser Monat,,,,5000,,,energy4,,,Stromvebrauch Warmwasser dieser Monat
+r;w,,PrFuelSumHwcThisMonth,Kraftstoffverbrauch Warmwasser dieser Monat,,,,5100,,,energy4,,,Kraftstoffverbrauch Warmwasser dieser Monat
+r;w,,PrFuelSumHcLastMonth,Kraftstoffverbrauch Heizung letzter Monat,,,,5200,,,energy4,,,Kraftstoffverbrauch Heizung letzter Monat
+r;w,,PrEnergySumHcLastMonth,Stromvebrauch Heizung letzter Monat,,,,5300,,,energy4,,,Stromvebrauch Heizung letzter Monat
+r;w,,PrEnergySumHwcLastMonth,Stromvebrauch Warmwasser letzter Monat,,,,5400,,,energy4,,,Stromvebrauch Warmwasser letzter Monat
+r;w,,PrFuelSumHwcLastMonth,Kraftstoffverbrauch Warmwasser letzter Monat,,,,5500,,,energy4,,,Kraftstoffverbrauch Warmwasser letzter Monat
+r;w,,PrFuelSumHc,Gesamtkraftstoffverbrauch Heizung,,,,5600,,,energy4,,,Gesamtkraftstoffverbrauch Heizung
+r;w,,PrEnergySumHc,Gesamtstromverbrauch Heizung,,,,5700,,,energy4,,,Gesamtstromverbrauch Heizung
+r;w,,PrEnergySumHwc,Gesamtstromverbrauch Warmwasser,,,,5800,,,energy4,,,Gesamtstromverbrauch Warmwasser
+r;w,,PrFuelSumHwc,Gesamtkraftstoffverbrauch Warmwasser,,,,5900,,,energy4,,,Gesamtkraftstoffverbrauch Warmwasser
+r;w,,PrEnergySum,Gesamtstromverbrauch,,,,5C00,,,energy4,,,Gesamtstromverbrauch
+r;w,,PrFuelSum,Gesamtkraftstoffverbrauch,,,,5D00,,,energy4,,,Gesamtkraftstoffverbrauch
 r,,xUnknown60,,,,,6000,,,HEX:*,,,
 r,,xUnknown61,,,,,6100,,,HEX:*,,,
 r,,xUnknown65,,,,,6500,,,HEX:*,,,
 r;w,,xUnknown67,(VR70 konfig 1),,,,6700,,,tempv,,,
 r;w,,xUnknown68,(VR70 konfig 1),,,,6800,,,tempv,,,
-r;w,,MultiInputSetting,multifunction input configuration,,,,6A00,,,UIN,0=not connected;1=1x circulation;2=photovoltaics;3=Ext.Cooling,,
-r;w,,Installer1,installer name 1,,,,6C00,,,STR:*,,,installer's name
-r;w,,Installer2,installer name 2,,,,6D00,,,STR:*,,,installer's name
-r;w,,PhoneNumber1,phone number 1,,,,6F00,,,STR:*,,,installer's telephone number
-r;w,,PhoneNumber2,phone number 2,,,,7000,,,STR:*,,,installer's telephone number
-r;w,,HolidayStartPeriod,holiday start period,,,,7100,,,hfrom,,,start date of holidays
-r;w,,HolidayEndPeriod,holiday end period,,,,7200,,,hto,,,end date of holidays
-r,,DisplayedOutsideTemp,outside temperature,,,,7300,,,tempv,,,outside temperature
+r;w,,MultiInputSetting,Multifunktions Eingang Einstellung,,,,6A00,,,UIN,0=not connected;1=1x circulation;2=photovoltaics;3=Ext.Cooling,,
+r;w,,Installer1,Fachhandwerker Name 1,,,,6C00,,,STR:*,,,Fachhandwerker Name
+r;w,,Installer2,Fachhandwerker Name 2,,,,6D00,,,STR:*,,,Fachhandwerker Name
+r;w,,PhoneNumber1,Fachhandwerker Telefonnummer 1,,,,6F00,,,STR:*,,,Fachhandwerker Telefonnummer
+r;w,,PhoneNumber2,Fachhandwerker Telefonnummer 2,,,,7000,,,STR:*,,,Fachhandwerker Telefonnummer
+r;w,,HolidayStartPeriod,Abwesenheit Start,,,,7100,,,hfrom,,,Anfangsdatum der Abwesenheit
+r;w,,HolidayEndPeriod,Abwesenheit Ende,,,,7200,,,hto,,,Enddatum der Abwesenheit
+r,,DisplayedOutsideTemp,Außentemperatur,,,,7300,,,tempv,,,Außentemperatur
 r,,xUnknown75,,,,,7500,,,HEX:*,,,
-r;w,,KeyCodeforConfigMenu,code for installer menu,,,,7600,,,UIN,,,000-999; code for the installer's menues
+r;w,,KeyCodeforConfigMenu,Zugangscode Fachhandwerkerebene ,,,,7600,,,UIN,,,000-999; Zugangscode zur Fachhandwerkerebene
 r,,xUnknown77,,,,,7700,,,HEX:*,,,
 r,,xUnknown7E,,,,,7E00,,,HEX:*,,,
 r,,xUnknown80,,,,,8000,,,HEX:*,,,
 r;w,,xUnknown81,,,,,8100,,,HEX:*,,,
-r;w,,xHolidayTemp,holiday temperature,,,,8200,,,tempv,,,holiday setpoint
-r;w,,xBankHolidayStartPeriod,bank holiday start period,,,,8300,,,hfrom,,,start date of bank holidays
-r;w,,xBankHolidayEndPeriod,bank holiday end period,,,,8400,,,hto,,,end date of bank holidays
+r;w,,xHolidayTemp,Absenktemperatur Abwesenheit,,,,8200,,,tempv,,,Absenktemperatur Abwesenheit
+r;w,,xBankHolidayStartPeriod,Feiertage Start,,,,8300,,,hfrom,,,Anfangsdatum der Feiertage
+r;w,,xBankHolidayEndPeriod,Feiertage Ende,,,,8400,,,hto,,,Enddatum der Feiertage
 r;w,,xUnknown85,(constant 0/inf),,,,8500,,,tempv,,,
 r,,xUnknown86,,,,,8600,,,HEX:*,,,
 r,,xUnknown89,,,,,8900,,,HEX:*,,,
@@ -103,18 +103,18 @@ r,,xUnknown8C,,,,,8C00,,,HEX:*,,,
 r,,xUnknown8D,,,,,8D00,,,HEX:*,,,
 r,,xUnknown8E,,,,,8E00,,,HEX:*,,,
 r,,xUnknown8F,,,,,8F00,,,HEX:*,,,
-r;w,,OutsideTempAvg,average outside temperature,,,,9500,,,tempv,,,rounded average outsidetemperature (updated every 3h)
-r,,MaintenanceDue,maintenance due,,,,9600,,,yesno,,,shows whether maintenance is due
+r;w,,OutsideTempAvg,Durchschnittsaußentemperatur,,,,9500,,,tempv,,,Außentemperatur 24h gemittelt (updated alle 3h)
+r,,MaintenanceDue,Wartung fällig,,,,9600,,,yesno,,,Zeigt ob eine Wartung fällig ist
 r,,xUnknown97,,,,,9700,,,HEX:*,,,
 r,,xUnknown98,,,,,9800,,,HEX:*,,,
-r,,GreenIQ,,,,,9A00,,,onoff,,,Green IQ mode on thermostat
+r,,GreenIQ,,,,,9A00,,,onoff,,,Green IQ des Thermostates
 r,,xUnknown9B,,,,,9B00,,,HEX:*,,,
-r,,HwcStorageTempTop,hwc storage temperature top,,,,9D00,,,tempv,,,temperature sensor HWC storage top
-r,,HwcStorageTempBottom, storage temperature bottom,,,,9E00,,,tempv,,,temperature sensor HWC storage bottom
-r,,HcStorageTempTop,hc storage temperature top,,,,9F00,,,tempv,,,temperature sensor HW storage top
-r,,HcStorageTempBottom,hc storage temperature bottom,,,,A000,,,tempv,,,temperature sensor HW storage bottom
+r,,HwcStorageTempTop,Warmwasserspeichertemperatur Oben,,,,9D00,,,tempv,,,Warmwasserspeichertemperatur Oben
+r,,HwcStorageTempBottom, Warmwasserspeichertemperatur Unten,,,,9E00,,,tempv,,,Warmwasserspeichertemperatur Unten
+r,,HcStorageTempTop,Heizspeichertemperatur Oben,,,,9F00,,,tempv,,,Heizspeichertemperatur Oben
+r,,HcStorageTempBottom,Heizspeichertemperatur Unten,,,,A000,,,tempv,,,Heizspeichertemperatur Unten
 r,,xUnknownA1,,,,,A100,,,HEX:*,,,
-r;w,,HwcCylinderOffset,Offset cylinder charge,,,,A200,,,calibrationv,,,Offset storage tank loading. Offset
+r;w,,HwcCylinderOffset,Offset Pufferspeicher,,,,A200,,,calibrationv,,,Offset Pufferspeicher
 r,,xUnknownA5,,,,,A500,,,HEX:*,,,
 r,,xUnknownAB,,,,,AB00,,,HEX:*,,,
 r,,xUnknownAF,,,,,AF00,,,HEX:*,,,
@@ -134,16 +134,16 @@ r,,xUnknownBF,,,,,BF00,,,HEX:*,,,
 # ##### hot water circuit #####,,,,,,,,,,,,,
 *r,,,,,,B524,02000100,,,IGN:4,,,
 *w,,,,,,B524,02010100,,,,,,
-r;w,,HwcEnabled,,,,,0100,,,yesno,,,Indicates if Hwc is enabled/disabled
-r,,HwcLegionellaRunActive,,,,,0200,,,yesno,,,Indicates ongoing legionella run
-r;w,,HwcOpMode,HwcOpMode,,,,0300,,,opmode2,,,Planning mode of Hwc
-r;w,,HwcTempDesired,Desired Temperature Warm Water Circuit,,,,0400,,,tempv,,,setpoint of domestic hot water circuit
-r,,HwcStorageTemp,HwcStorageTemp,,,,0500,,,tempv,,,current hot water storage temperature
-r,,HwcReheatingActive,,,,,0600,,,yesno,,,Indicates ongoing hot/legionella water run
+r;w,,HwcEnabled,,,,,0100,,,yesno,,,Warmwasser (AN/AUS)
+r,,HwcLegionellaRunActive,,,,,0200,,,yesno,,,Legionellenschutz wird durchgeführt (AN/AUS)
+r;w,,HwcOpMode,Warmwasser Modus,,,,0300,,,opmode2,,,Warmwasser Modus
+r;w,,HwcTempDesired,Wunschtemperatur Warmwasser,,,,0400,,,tempv,,,Wunschtemperatur Warmwasser
+r,,HwcStorageTemp,Speicheristtemperatur,,,,0500,,,tempv,,,Aktuelle Temperatur im Warmwasserspeicher
+r,,HwcReheatingActive,,,,,0600,,,yesno,,,Legionellenschutz wird durchgeführt
 r,,HwcUnknown07,,,,,0700,,,HEX:*,,,
-r,,HwcFlowTemp,HwcFlowTemp,,,,0800,,,tempv,,,desired flow temp for Hwc
-r;w,,HwcHolidayStartPeriod,HwcHolidayStartPeriod,,,,0900,,,hfrom,,,start date of holidays
-r;w,,HwcHolidayEndPeriod,HwcHolidayEndPeriod,,,,0A00,,,hto,,,end date of holidays
+r,,HwcFlowTemp,HwcFlowTemp,,,,0800,,,tempv,,,Warmwassertemperatur
+r;w,,HwcHolidayStartPeriod,HwcHolidayStartPeriod,,,,0900,,,hfrom,,,Start Datum Abwesenheit
+r;w,,HwcHolidayEndPeriod,HwcHolidayEndPeriod,,,,0A00,,,hto,,,Ende Datum Abwesenheit
 r;w,,HwcBankHolidayStartPeriod,HwcHolidayStartPeriod,,,,0B00,,,hfrom,,,start date of bank holidays
 r;w,,HwcBankHolidayEndPeriod,HwcHolidayEndPeriod,,,,0C00,,,hto,,,end date of bank holidays
 r;w,,HwcSFMode,HwcSFMode,,,,0D00,,,sfmode,,,valid are at least:auto/onedayaway/load
@@ -158,85 +158,85 @@ r,,HwcUnknown13,,,,,1300,,,HEX:*,,,
 *w,,,,,,B524,02010200,,,,,,
 r;w,,Hc1Unknown00,,,,,0000,,,HEX:*,,,
 r;w,,Hc1Unknown01,,,,,0100,,,HEX:*,,,
-r,,Hc1CircuitType,CircuitType Heating Circuit 1,,,,0200,,,mctype;IGN:1,,,
+r,,Hc1CircuitType,Kreisart Kreis 1,,,,0200,,,mctype;IGN:1,,,
 r;w,,Hc1Unknown04,(konstant 30),,,,0400,,,HEX:*,,,
-r;w,,Hc1DewPointMonitoring,,,,,0500,,,onoff,,,Dew point monitoring enable/disable for Hc1
-r;w,,Hc1CoolingEnabled,,,,,0600,,,onoff,,,Cooling function enable/disable for Hc1
-r,,Hc1ActualFlowTempDesired,Actual Desired Flow Temperature Heating Circuit 1,,,,0700,,,tempv,,,current flow temperature setpoint of Hc1
-r,,Hc1FlowTemp,Flow Temperature Heating Circuit 1,,,,0800,,,tempv,,,current flow temperature of Hc1
+r;w,,Hc1DewPointMonitoring,,,,,0500,,,onoff,,,Taupunktüberwachung (AN/AUS) für HK1
+r;w,,Hc1CoolingEnabled,,,,,0600,,,onoff,,,Kühlen möglich (AN/AUS) für HK1
+r,,Hc1ActualFlowTempDesired,Vorlaufsolltemperatur Wunsch HK1,,,,0700,,,tempv,,,Vorlaufsolltemperatur Wunsch HK1
+r,,Hc1FlowTemp,Vorlauftemperatur HK1,,,,0800,,,tempv,,,Aktuelle Vorlauftemperatur HK1
 r;w,,Hc1Unknown09,(konstant 60),,,,0900,,,HEX:*,,,
-r;w,,Hc1DewPointOffset,Hc1 Temperature offset from dew point,,,,0A00,,,tempv,,,Dew point temperature margin for Hc1
+r;w,,Hc1DewPointOffset,HK1 Offset Taupunkt,,,,0A00,,,tempv,,,Sicherheitszuschlag der auf den aktuellen Taupunkt für HK1 addiert wird.
 r;w,,Hc1ExcessTemp,ExcessTemp Heating Circuit 1,,,,0B00,,,calibrationv,,,excess temperature of Hc1 (flow temperature's setpoint is increased by this value to keep the mixing valve in its control range)
-r;w,,Hc1DesiredTemp,Desired Temperature Heating Circuit 1,,,,0C00,,,tempv,,,
+r;w,,Hc1DesiredTemp,Vorlaufsolltemperatur HK1,,,,0C00,,,tempv,,,
 r;w,,Hc1Unknown0D,(konstant 65),,,,0D00,,,HEX:*,,,
-r;w,,Hc1AutoOffMode,AutoOffMode Heating Circuit 1,,,,0E00,,,offmode2,,,operation of Hc1 during the lowering time; no influence if room temperature modulation is set to thermostat
-r;w,,Hc1HeatCurve,Heatcurve Heating Circuit 1,,,,0F00,,,EXP,,,heating curve of Hc1
-r;w,,Hc1MaxHeatingFlowTempDesired,MaxFlowTempDesired Heating Circuit 1,,,,1000,,,tempv,,,maximum heating flow temperature setpoint (end emphasis) of Hc1
-r;w,,Hc1MinCoolingFlowTempDesired,,,,,1100,,,tempv,,,minimum cooling flow temperature setpoint of Hc1 
-r;w,,Hc1MinHeatingFlowTempDesired,MinFlowTempDesired Heating Circuit 1,,,,1200,,,tempv,,,minimum heating flow temperature setpoint (end emphasis) of Hc1
+r;w,,Hc1AutoOffMode,Absenkmodus HK1,,,,0E00,,,offmode2,,,Absenkmodus für HK1 
+r;w,,Hc1HeatCurve,Heizkurve HK1,,,,0F00,,,EXP,,,Heizkurve HK1
+r;w,,Hc1MaxHeatingFlowTempDesired,Maximale Vorlaufsolltemperatur HK1,,,,1000,,,tempv,,,Obergrenze für die Vorlaufsolltemperatur HK1
+r;w,,Hc1MinCoolingFlowTempDesired,,,,,1100,,,tempv,,,Minimale Vorlaufsolltemperatur Kühlen HK1
+r;w,,Hc1MinHeatingFlowTempDesired,Minimale Vorlaufsolltemperatur HK1,,,,1200,,,tempv,,,Untergrenze für die Vorlaufsolltemperatur HK1
 r;w,,Hc1Unknown13,,,,,1300,,,HEX:*,,,
-r;w,,Hc1SummerTempLimit,Switch off temperature threshold Heating Circuit 1,,,,1400,,,tempv,,,if outside temperature > summer limit => heating is OFF;applies to comfort and night setback setpoint
-r;w,,Hc1RoomTempCompensation,Room Temperature Compensation Scheme Heating Circuit 1,,,,1500,,,rcmode2,,,room temperature modulation of Hc1
+r;w,,Hc1SummerTempLimit,AT-Abschaltgrenze HK1,,,,1400,,,tempv,,,Obergrenze für die Außentemperatur. Liegt die Außentemperatur darüber wird die Heizungfunktion für HK1 Deaktiviert
+r;w,,Hc1RoomTempCompensation,Korrekturwert Raumtemperatur HK1,,,,1500,,,rcmode2,,,Ausgleich der Temperaturdifferenz zwischen dem gemessenem Wert im Systemregler HK1
 r;w,,Hc1Unknown16,,,,,1600,,,HEX:*,,,
 r;w,,Hc1Unknown17,,,,,1700,,,HEX:*,,,
 r;w,,Hc1Unknown18,,,,,1800,,,HEX:*,,,
 r;w,,Hc1Unknown19,,,,,1900,,,HEX:*,,,
-r,,Hc1MixerMovement,Mixer Position Heating Circuit 1,,,,1A00,,,EXP,,,"status of mixer (<0 closing, >0 opening)"
-r;w,,Hc1Status,Status Heating Circuit 1,,,,1B00,,,UCH,,,status of zone 1
-r,,Hc1HeatCurveAdaption,Adaptive Heatcurve Heating Circuit 1,,,,1C00,,,EXP,,,adaption applied to heating curve of Hc1
+r,,Hc1MixerMovement,Status Mischventil HK1,,,,1A00,,,EXP,,,"Anzeige Mischerkreis (<0 Schließen, >0 Öffnen)"
+r;w,,Hc1Status,Status HK1,,,,1B00,,,UCH,,,Status der HK1
+r,,Hc1HeatCurveAdaption,Adaptive Heizkurve HK1,,,,1C00,,,EXP,,,Automatische Feinjustierung der Heizkurve HK1
 r;w,,Hc1Unknown1D,,,,,1D00,,,HEX:*,,,
-r;w,,Hc1PumpStatus,PumpStatus Heating Circuit 1,,,,1E00,,,onoff,,,pump status of zone 1
+r;w,,Hc1PumpStatus,Status Pumpe HK1,,,,1E00,,,onoff,,,Anzeige des Status der Heizungspumpe HK1
 r;w,,Hc1Unknown1F,,,,,1F00,,,HEX:*,,,
 # ##### heating circuit 2 #####,,,,,,,,,,,,,
 *r,,,,,,B524,02000201,,,IGN:4,,,
 *w,,,,,,B524,02010201,,,,,,
-r,,Hc2CircuitType,CircuitType Heating Circuit 2,,,,0200,,,mctype;IGN:1,,,
+r,,Hc2CircuitType,Kreisart Kreis 2,,,,0200,,,mctype;IGN:1,,,
 #r;w,,Hc2Unknown04,(konstant 30) Temperature Heating Circuit 2,,,,0400,,,tempv,,,
-r;w,,Hc2DewPointMonitoring,,,,,0500,,,onoff,,,Dew point monitoring enable/disable for Hc2
-r;w,,Hc2CoolingEnabled,,,,,0600,,,onoff,,,Cooling function enable/disable for Hc2
-r,,Hc2ActualFlowTempDesired,Actual Desired Flow Temperature Heating Circuit 2,,,,0700,,,tempv,,,current flow temperature setpoint of Hc2
-r,,Hc2FlowTemp,Flow Temperature Heating Circuit 2,,,,0800,,,tempv,,,current flow temperature of Hc2
+r;w,,Hc2DewPointMonitoring,,,,,0500,,,onoff,,,Taupunktüberwachung (AN/AUS) für HK2
+r;w,,Hc2CoolingEnabled,,,,,0600,,,onoff,,,Kühlen möglich (AN/AUS) für HK2
+r,,Hc2ActualFlowTempDesired,Vorlaufsolltemperatur Wunsch HK2,,,,0700,,,tempv,,,Vorlaufsolltemperatur Wunsch HK2
+r,,Hc2FlowTemp,Vorlauftemperatur HK2,,,,0800,,,tempv,,,Vorlauftemperatur HK2
 #r;w,,Hc2Unknown09,(konstant 60) Temperatur,,,,0900,,,tempv,,,
-r;w,,Hc2DewPointOffset,Hc1 Temperature offset from dew point,,,,0A00,,,tempv,,,Dew point temperature margin for Hc2
-r;w,,Hc2ExcessTemp,ExcessTemp Heating Circuit 2,,,,0B00,,,calibrationv,,,excess temperature of Hc2 (flow temperature's setpoint is increased by this value to keep the mixing valve in its control range)
-r;w,,Hc2DesiredTemp,Desired Temperature Heating Circuit 2,,,,0C00,,,tempv,,,
+r;w,,Hc2DewPointOffset,HK2 Offset Taupunkt,,,,0A00,,,tempv,,,Sicherheitszuschlag der auf den aktuellen Taupunkt für HK2 addiert wird.
+r;w,,Hc2ExcessTemp,ExcessTemp Heating Circuit 2,,,,0B00,,,calibrationv,,,Sicherheitszuschlag der auf den aktuellen Taupunkt für HK2 addiert wird.
+r;w,,Hc2DesiredTemp,Vorlaufsolltemperatur HK2,,,,0C00,,,tempv,,,
 #r;w,,Hc2Unknown0d,(konstant 65) Temperature Heating Circuit 2,,,,0D00,,,tempv,,,
-r;w,,Hc2AutoOffMode,AutoOffMode Heating Circuit 2,,,,0E00,,,offmode2,,,operation of Hc2 during the lowering time; no influence if room temperature modulation is set to thermostat
-r;w,,Hc2HeatCurve,Heatingcurve Heating Circuit 2,,,,0F00,,,EXP,,,heating curve of Hc2
-r;w,,Hc2MaxHeatingFlowTempDesired,MaxFlowTempDesired Heating Circuit 2,,,,1000,,,tempv,,,maximum heating flow temperature setpoint (end emphasis) of Hc2
-r;w,,Hc2MinCoolingFlowTempDesired,,,,,1100,,,tempv,,,minimum cooling flow temperature setpoint of Hc2
-r;w,,Hc2MinHeatingFlowTempDesired,MinFlowTempDesired Heating Circuit 2,,,,1200,,,tempv,,,minimum heating flow temperature setpoint (end emphasis) of Hc2
-r;w,,Hc2SummerTempLimit,AT-Abschaltgrenz Heating Circuit 2,,,,1400,,,tempv,,,if outside temperature > summer limit => heating is OFF;applies to comfort and night setback setpoint
-r;w,,Hc2RoomTempCompensation,Room Temperature Compensation Scheme Heating Circuit 2,,,,1500,,,rcmode2,,,room temperature modulation of Hc2
-r,,Hc2MixerMovement,Mixer Position Heating Circuit 2,,,,1A00,,,EXP,,,"status of mixer (<0 closing, >0 opening)"
-r,,Hc2HeatCurveAdaption,Adaption of Heatcurve Heating Circuit 2,,,,1C00,,,EXP,,,adaption applied to heating curve of Hc2
-r;w,,Hc2Status,Status Heating Circuit 2,,,,1B00,,,UCH,,,status of zone 2
-r;w,,Hc2PumpStatus,PumpStatus Heating Circuit 2,,,,1E00,,,onoff,,,pump status of zone 2
+r;w,,Hc2AutoOffMode,Absenkmodus HK2,,,,0E00,,,offmode2,,,Absenkmodus für HK2
+r;w,,Hc2HeatCurve,Heizkurve HK2,,,,0F00,,,EXP,,,Heizkurve HK2
+r;w,,Hc2MaxHeatingFlowTempDesired,Maximale Vorlaufsolltemperatur HK2,,,,1000,,,tempv,,,Obergrenze für die Vorlaufsolltemperatur HK2
+r;w,,Hc2MinCoolingFlowTempDesired,,,,,1100,,,tempv,,,Minimale Vorlaufsolltemperatur Kühlen HK2
+r;w,,Hc2MinHeatingFlowTempDesired,Minimale Vorlaufsolltemperatur HK2,,,,1200,,,tempv,,,Untergrenze für die Vorlaufsolltemperatur HK2
+r;w,,Hc2SummerTempLimit,AT-Abschaltgrenze HK2,,,,1400,,,tempv,,,Obergrenze für die Außentemperatur. Liegt die Außentemperatur darüber wird die Heizungfunktion für HK2 Deaktiviert
+r;w,,Hc2RoomTempCompensation,Korrekturwert Raumtemperatur HK2,,,,1500,,,rcmode2,,,Ausgleich der Temperaturdifferenz zwischen dem gemessenem Wert im Systemregler HK2
+r,,Hc2MixerMovement,Status Mischventil HK2,,,,1A00,,,EXP,,,"Anzeige Mischerkreis (<0 Schließen, >0 Öffnen)"
+r,,Hc2HeatCurveAdaption,Adaptive Heizkurve HK2,,,,1C00,,,EXP,,,Automatische Feinjustierung der Heizkurve HK2
+r;w,,Hc2Status,Status HK2,,,,1B00,,,UCH,,,Status der HK2
+r;w,,Hc2PumpStatus,Status Pumpe HK2,,,,1E00,,,onoff,,,Anzeige des Status der Heizungspumpe HK2
 # ##### heating circuit 3 #####,,,,,,,,,,,,,
 *r,,,,,,B524,02000202,,,IGN:4,,,
 *w,,,,,,B524,02010202,,,,,,
-r,,Hc3CircuitType,CircuitType Heating Circuit 3,,,,0200,,,mctype;IGN:1,,,
+r,,Hc3CircuitType,Kreisart Kreis 3,,,,0200,,,mctype;IGN:1,,,
 #r;w,,Hc3Unknown04,(konstant 30) Temperature Heating Circuit 3,,,,0400,,,tempv,,,
-r;w,,Hc3DewPointMonitoring,,,,,0500,,,onoff,,,Dew point monitoring enable/disable for Hc3
-r;w,,Hc3CoolingEnabled,,,,,0600,,,onoff,,,Cooling function enable/disable for Hc3
-r,,Hc3ActualFlowTempDesired,Actual Desired Flow Temperature Heating Circuit 3,,,,0700,,,tempv,,,current flow temperature setpoint of Hc3
-r,,Hc3FlowTemp,Flow Temperature Heating Circuit 3,,,,0800,,,tempv,,,current flow temperature of Hc3
+r;w,,Hc3DewPointMonitoring,,,,,0500,,,onoff,,,Taupunktüberwachung (AN/AUS) für HK3
+r;w,,Hc3CoolingEnabled,,,,,0600,,,onoff,,,Kühlen möglich (AN/AUS) für HK3
+r,,Hc3ActualFlowTempDesired,Vorlaufsolltemperatur Wunsch HK3,,,,0700,,,tempv,,,Vorlaufsolltemperatur Wunsch HK3
+r,,Hc3FlowTemp,Vorlauftemperatur HK3,,,,0800,,,tempv,,,Vorlauftemperatur HK3
 #r;w,,Hc3Unknown09,(konstant 60) Temperatur,,,,0900,,,tempv,,,
-r;w,,Hc3DewPointOffset,Hc1 Temperature offset from dew point,,,,0A00,,,tempv,,,Dew point temperature margin for Hc3
+r;w,,Hc3DewPointOffset,HK3 Offset Taupunkt,,,,0A00,,,tempv,,,Sicherheitszuschlag der auf den aktuellen Taupunkt für HK3 addiert wird.
 r;w,,Hc3ExcessTemp,ExcessTemp Heating Circuit 3,,,,0B00,,,calibrationv,,,excess temperature of Hc3 (flow temperature's setpoint is increased by this value to keep the mixing valve in its control range)
-r;w,,Hc3DesiredTemp,Desired Temperature Heating Circuit 3,,,,0C00,,,tempv,,,
+r;w,,Hc3DesiredTemp,Vorlaufsolltemperatur HK3,,,,0C00,,,tempv,,,
 #r;w,,Hc3Unknown0d,(konstant 65) Temperature Heating Circuit 3,,,,0D00,,,tempv,,,
-r;w,,Hc3AutoOffMode,AutoOffMode Heating Circuit 3,,,,0E00,,,offmode2,,,operation of Hc3 during the lowering time; no influence if room temperature modulation is set to thermostat
-r;w,,Hc3HeatCurve,Heatcurve Heating Circuit 3,,,,0F00,,,EXP,,,heating curve of Hc3
-r;w,,Hc3MaxHeatingFlowTempDesired,MaxFlowTempDesired Heating Circuit 3,,,,1000,,,tempv,,,maximum heating flow temperature setpoint (end emphasis) of Hc3
-r;w,,Hc3MinCoolingFlowTempDesired,,,,,1100,,,tempv,,,minimum cooling flow temperature setpoint of Hc3
-r;w,,Hc3MinHeatingFlowTempDesired,MinFlowTempDesired Heating Circuit 3,,,,1200,,,tempv,,,minimum heating flow temperature setpoint (end emphasis) of Hc3
-r;w,,Hc3SummerTempLimit,AT-Abschaltgrenze Heating Circuit 3,,,,1400,,,tempv,,,if outside temperature > summer limit => heating is OFF;applies to comfort and night setback setpoint
-r;w,,Hc3RoomTempCompensation,Room Temperature Compensation Scheme Heating Circuit 3,,,,1500,,,rcmode2,,,room temperature modulation of Hc3
-r,,Hc3MixerMovement,Mixer Position Heating Circuit 3,,,,1A00,,,EXP,,,"status of mixer (<0 closing, >0 opening)"
-r,,Hc3HeatCurveAdaption,Adaption of Heatcurve Heating Circuit 3,,,,1C00,,,EXP,,,adaption applied to heating curve of Hc3
-r;w,,Hc3Status,Status Heating Circuit 3,,,,1B00,,,UCH,,,status of zone 3
-r;w,,Hc3PumpStatus,PumpStatus Heating Circuit 3,,,,1E00,,,onoff,,,pump status of zone 3
+r;w,,Hc3AutoOffMode,Absenkmodus HK3,,,,0E00,,,offmode2,,,Absenkmodus für HK2
+r;w,,Hc3HeatCurve,Heizkurve HK3,,,,0F00,,,EXP,,,Heizkurve HK3
+r;w,,Hc3MaxHeatingFlowTempDesired,Maximale Vorlaufsolltemperatur HK3,,,,1000,,,tempv,,,Obergrenze für die Vorlaufsolltemperatur HK3
+r;w,,Hc3MinCoolingFlowTempDesired,,,,,1100,,,tempv,,,Minimale Vorlaufsolltemperatur Kühlen HK3
+r;w,,Hc3MinHeatingFlowTempDesired,Minimale Vorlaufsolltemperatur HK3,,,,1200,,,tempv,,,Untergrenze für die Vorlaufsolltemperatur HK3
+r;w,,Hc3SummerTempLimit,AT-Abschaltgrenze HK3,,,,1400,,,tempv,,,Obergrenze für die Außentemperatur. Liegt die Außentemperatur darüber wird die Heizungfunktion für HK1 Deaktiviert
+r;w,,Hc3RoomTempCompensation,Korrekturwert Raumtemperatur HK3,,,,1500,,,rcmode2,,,Ausgleich der Temperaturdifferenz zwischen dem gemessenem Wert im Systemregler HK3
+r,,Hc3MixerMovement,Status Mischventil HK3,,,,1A00,,,EXP,,,"Anzeige Mischerkreis (<0 Schließen, >0 Öffnen)"
+r,,Hc3HeatCurveAdaption,Adaptive Heizkurve HK3,,,,1C00,,,EXP,,,Automatische Feinjustierung der Heizkurve HK3
+r;w,,Hc3Status,Status HK3,,,,1B00,,,UCH,,,Status der HK3
+r;w,,Hc3PumpStatus,Status Pumpe HK3,,,,1E00,,,onoff,,,Anzeige des Status der Heizungspumpe HK3
 # ##### zone 1 #####,,,,,,,,,,,,,
 *r,,,,,,B524,02000300,,,IGN:4,,,
 *w,,,,,,B524,02010300,,,,,,
@@ -364,7 +364,7 @@ r,,unknownValue.a0,(3Zones;HWC&CC = constant value. General configuration?),,,B5
 *r,,,,,,B555,a50002,,,,,,
 *w,,,,,,B555,a60002,,,,,,
 r,,hwcTimer.Config,timer Configuration(static atm? describes featue set?),,,B555,a30002,,,HEX:9,,,Configuration
-r,,hwcTimer.Timeframes,Configured slot count,,,B555,a40002,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,hwcTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40002,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,hwcTimer.Monday0,timer Montag 1,,,,0000,,,rTimeSlotWithTemp,,,
 r,,hwcTimer.Monday1,timer Montag 2,,,,0001,,,rTimeSlotWithTemp,,,
 r,,hwcTimer.Monday2,timer Montag 3,,,,0002,,,rTimeSlotWithTemp,,,
@@ -397,7 +397,7 @@ w,,hwcTimer.Sunday,timer Sonntag,,,,06,,,wTimeSlotWithoutTemp,,,
 *r,,,,,,B555,a50003,,,,,,
 *w,,,,,,B555,a60003,,,,,,
 r,,ccTimer.Config,timer Configuration(static atm? describes featue set?),,,B555,a30003,,,HEX:9,,,Configuration
-r,,ccTimer.Timeframes,Configured slot count,,,B555,a40003,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,ccTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40003,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,ccTimer.Monday0,timer Montag 1,,,,0000,,,rTimeSlotWithoutTemp,,,
 r,,ccTimer.Monday1,timer Montag 2,,,,0001,,,rTimeSlotWithoutTemp,,,
 r,,ccTimer.Monday2,timer Montag 3,,,,0002,,,rTimeSlotWithoutTemp,,,
@@ -430,7 +430,7 @@ w,,ccTimer.Sunday,timer Sonntag,,,,06,,,wTimeSlotWithoutTemp,,,
 *r,,,,,,B555,a50004,,,,,,
 *w,,,,,,B555,a60004,,,,,,
 r,,silentTimer.Config,timer Configuration(static atm? describes featue set?),,,B555,a30004,,,HEX:9,,,Configuration
-r,,silentTimer.Timeframes,Configured slot count,,,B555,a40004,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,silentTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40004,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,silentTimer.Monday0,timer Montag 1,,,,0000,,,rTimeSlotWithoutTemp,,,
 r,,silentTimer.Monday1,timer Montag 2,,,,0001,,,rTimeSlotWithoutTemp,,,
 r,,silentTimer.Monday2,timer Montag 3,,,,0002,,,rTimeSlotWithoutTemp,,,
@@ -463,7 +463,7 @@ w,,silentTimer.Sunday,timer Sonntag,,,,06,,,wTimeSlotWithoutTemp,,,
 *r,,,,,,B555,a50000,,,,,,
 *w,,,,,,B555,a60000,,,,,,
 r,,z1HTimer.Config,timer heating Configuration(static atm? describes featue set?),,,B555,a30000,,,HEX:9,,,Configuration
-r,,z1HTimer.Timeframes,Configured slot count,,,B555,a40000,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,z1HTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40000,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,z1HTimer.Monday0,timer heating Montag 1,,,,0000,,,rTimeSlotWithTemp,,,
 r,,z1HTimer.Monday1,timer heating Montag 2,,,,0001,,,rTimeSlotWithTemp,,,
 r,,z1HTimer.Monday2,timer heating Montag 3,,,,0002,,,rTimeSlotWithTemp,,,
@@ -496,7 +496,7 @@ w,,z1HTimer.Sunday,timer heating Sonntag,,,,06,,,wTimeSlotWithTemp,,,
 *r,,,,,,B555,a50001,,,,,,
 *w,,,,,,B555,a60001,,,,,,
 r,,z1CTimer.Config,timer cooling Configuration(static atm? describes featue set?),,,B555,a30001,,,HEX:9,,,Configuration
-r,,z1CTimer.Timeframes,Configured slot count,,,B555,a40001,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,z1CTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40001,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,z1CTimer.Monday0,timer cooling Montag 1,,,,0000,,,rTimeSlotWithTemp,,,
 r,,z1CTimer.Monday1,timer cooling Montag 2,,,,0001,,,rTimeSlotWithTemp,,,
 r,,z1CTimer.Monday2,timer cooling Montag 3,,,,0002,,,rTimeSlotWithTemp,,,
@@ -529,7 +529,7 @@ w,,z1CTimer.Sunday,timer cooling Sonntag,,,,06,,,wTimeSlotWithoutTemp,,,
 *r,,,,,,B555,a50100,,,,,,
 *w,,,,,,B555,a60100,,,,,,
 r,,z2HTimer.Config,timer Configuration(static atm? describes featue set?),,,B555,a30100,,,HEX:9,,,Configuration
-r,,z2HTimer.Timeframes,Configured slot count,,,B555,a40100,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,z2HTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40100,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,z2HTimer.Monday0,timer heating Montag 1,,,,0000,,,rTimeSlotWithTemp,,,
 r,,z2HTimer.Monday1,timer heating Montag 2,,,,0001,,,rTimeSlotWithTemp,,,
 r,,z2HTimer.Monday2,timer heating Montag 3,,,,0002,,,rTimeSlotWithTemp,,,
@@ -562,7 +562,7 @@ w,,z2HTimer.Sunday,timer heating Sonntag,,,,06,,,wTimeSlotWithTemp,,,
 *r,,,,,,B555,a50101,,,,,,
 *w,,,,,,B555,a60101,,,,,,
 r,,z2CTimer.Config,timer cooling Configuration(static atm? describes featue set?),,,B555,a30101,,,HEX:9,,,Configuration
-r,,z2CTimer.Timeframes,Configured slot count,,,B555,a40101,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,z2CTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40101,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,z2CTimer.Monday0,timer cooling Montag 1,,,,0000,,,rTimeSlotWithTemp,,,
 r,,z2CTimer.Monday1,timer cooling Montag 2,,,,0001,,,rTimeSlotWithTemp,,,
 r,,z2CTimer.Monday2,timer cooling Montag 3,,,,0002,,,rTimeSlotWithTemp,,,
@@ -595,7 +595,7 @@ w,,z2CTimer.Sunday,timer cooling Sonntag,,,,06,,,wTimeSlotWithoutTemp,,,
 *r,,,,,,B555,a50200,,,,,,
 *w,,,,,,B555,a60200,,,,,,
 r,,z3HTimer.Config,timer Configuration(static atm? describes featue set?),,,B555,a30200,,,HEX:9,,,Configuration
-r,,z3HTimer.Timeframes,Configured slot count,,,B555,a40200,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,z3HTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40200,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,z3HTimer.Monday0,timer heating Montag 1,,,,0000,,,rTimeSlotWithTemp,,,
 r,,z3HTimer.Monday1,timer heating Montag 2,,,,0001,,,rTimeSlotWithTemp,,,
 r,,z3HTimer.Monday2,timer heating Montag 3,,,,0002,,,rTimeSlotWithTemp,,,
@@ -628,7 +628,7 @@ w,,z3HTimer.Sunday,timer heating Sonntag,,,,06,,,wTimeSlotWithTemp,,,
 *r,,,,,,B555,a50201,,,,,,
 *w,,,,,,B555,a60201,,,,,,
 r,,z3CTimer.Config,timer cooling Configuration(static atm? describes featue set?),,,B555,a30201,,,HEX:9,,,Configuration
-r,,z3CTimer.Timeframes,Configured slot count,,,B555,a40201,,,slotCountWeek,,,Amount of configured slots per weekday
+r,,z3CTimer.Timeframes,Konfigurierte Slot-Anzahl,,,B555,a40201,,,slotCountWeek,,,Amount of configured slots per weekday
 r,,z3CTimer.Monday0,timer cooling Montag 1,,,,0000,,,rTimeSlotWithTemp,,,
 r,,z3CTimer.Monday1,timer cooling Montag 2,,,,0001,,,rTimeSlotWithTemp,,,
 r,,z3CTimer.Monday2,timer cooling Montag 3,,,,0002,,,rTimeSlotWithTemp,,,
